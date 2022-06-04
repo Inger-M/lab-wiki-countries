@@ -1,7 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-function NavBar() {
-  return <div>Wiki Countries</div>;
-}
+const NavBar = () => {
+  return (
+    <div>
+      <nav>
+        <Link to={'/'}>LAB - Wikicountries</Link>
+      </nav>
+    </div>
+  );
+};
 
 export default NavBar;
